@@ -1,0 +1,34 @@
+/* Home.css */
+.home {
+    position: relative;
+    height: 100vh;
+    color: white;
+    background: url('../assets/dog_2_cats_grass.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.home-container {
+    height: calc(100vh - 100px); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+}
